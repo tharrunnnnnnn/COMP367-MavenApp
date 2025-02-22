@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/tharrunnnnnnn/COMP367-MavenApp.git', credentialsId: 'your-credential-id'
+                git url: 'https://github.com/tharrunnnnnnn/COMP367-MavenApp.git', credentialsId: '75495e91-5c67-4f6b-b985-f7725ec52f57'
 
             }
         }
